@@ -10,6 +10,7 @@ The program performs the functions:
 - Create folder 123/public_html/parse_suppliers
 - Upload the archive to 123/public_html/parse_suppliers
 - Unpack the archive
+- Download phantomjs driver https://phantomjs.org/download.html and load it to directory with programm. If necessary, rewrite path to webdriver in file gorod_kolyasok.py in line 28.
 - Editing auth_data.py (paths to the folder with the program, path to the site, downloadable providers)
 - Create a folder "options_img" in the directory "/123/public_html/image/catalog"
 - Connect via SSH. Through the terminal or SSH console in the hosting
